@@ -9,7 +9,7 @@
 class Penne : public Makaron
 {
   public:
-  ~Penne();
+  //~Penne();
   double ileMaki(unsigned P) const
   {
     double x;
