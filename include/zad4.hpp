@@ -18,5 +18,5 @@ double obliczMake(const std::vector<Tagliatelle>& wek)
   if (M > 50 && M <= 100)
     throw(2.0);
   if (M <= 50)
-    throw(M);
+    return M;
 }
