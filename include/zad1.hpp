@@ -10,6 +10,7 @@ class Makaron
   public:
   virtual double ileMaki(unsigned) const = 0;
   static Makaron* gotujMakaron(const std::string&);
+  ~Makaron();
 };
 
 // Zad1

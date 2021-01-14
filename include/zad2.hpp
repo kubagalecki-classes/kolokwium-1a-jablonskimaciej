@@ -8,7 +8,7 @@
 
 class Penne : public Makaron
 {
-  override double ileMaki(unsigned P) const
+  double ileMaki(unsigned P) const
   {
     double x;
     x = P;
