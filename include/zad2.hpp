@@ -9,7 +9,6 @@
 class Penne : public Makaron
 {
   public:
-  virtual ~Penne();
   double ileMaki(unsigned P) const
   {
     double x;
